@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pratik & Mansi | Wedding</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ───── HEADER / NAV ───── -->``
+  <header class="site-header">
+    <nav class="nav">
+      <span class="nav-logo">P &amp; M</span>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#story">Our Story</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#footer">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ───── HERO SECTION ───── -->
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-sub">We Are Getting Married</p>
+      <h1 class="hero-title">Pratik &amp; Mansi</h1>
+      <p class="hero-date">📅 December 12, 2025 &nbsp;|&nbsp; 📍 Mumbai, India</p>
+      <a href="#gallery" class="hero-btn">View Our Gallery</a>
+    </div>
+  </section>
+
+  <!-- ───── OUR STORY SECTION ───── -->
+  <section class="story" id="story">
+    <div class="container">
+      <h2 class="section-title">Our Story</h2>
+      <div class="divider">❤</div>
+      <div class="story-cards">
+
+        <div class="story-card">
+          <div class="story-icon">💫</div>
+          <h3>We Met</h3>
+          <p>It all began on a quiet evening in 2021. A chance meeting that changed everything forever.</p>
+        </div>
+
+        <div class="story-card">
+          <div class="story-icon">💍</div>
+          <h3>He Proposed</h3>
+          <p>Under a sky full of stars in Goa, he got down on one knee and she said yes with tears of joy.</p>
+        </div>
+
+        <div class="story-card">
+          <div class="story-icon">🎊</div>
+          <h3>We Celebrate</h3>
+          <p>Now surrounded by family and friends, we celebrate the beginning of our forever together.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── GALLERY SECTION ───── -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <h2 class="section-title">Our Moments</h2>
+      <div class="divider">📷</div>
+      <p class="section-subtitle">Images served directly from Amazon S3</p>
+
+      <div class="gallery-grid">
+
+        <!-- 
+          IMPORTANT: Replace each src URL below with your actual S3 Object URLs
+          Format: https://your-bucket-name.s3.ap-south-1.amazonaws.com/photoX.jpg
+        -->
+
+        <div class="gallery-item">
+          <img
+            src="https://wedding-photos-yourname-2025.s3.ap-south-1.amazonaws.com/photo1.jpg"
+            alt="Wedding Photo 1"
+            loading="lazy"
+          />
+          <div class="gallery-overlay">
+            <span>✨ Moment 1</span>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img
+            src="https://wedding-photos-yourname-2025.s3.ap-south-1.amazonaws.com/photo2.jpg"
+            alt="Wedding Photo 2"
+            loading="lazy"
+          />
+          <div class="gallery-overlay">
+            <span>✨ Moment 2</span>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img
+            src="https://wedding-photos-yourname-2025.s3.ap-south-1.amazonaws.com/photo3.jpg"
+            alt="Wedding Photo 3"
+            loading="lazy"
+          />
+          <div class="gallery-overlay">
+            <span>✨ Moment 3</span>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img
+            src="https://wedding-photos-yourname-2025.s3.ap-south-1.amazonaws.com/photo4.jpg"
+            alt="Wedding Photo 4"
+            loading="lazy"
+          />
+          <div class="gallery-overlay">
+            <span>✨ Moment 4</span>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img
+            src="https://wedding-photos-yourname-2025.s3.ap-south-1.amazonaws.com/photo5.jpg"
+            alt="Wedding Photo 5"
+            loading="lazy"
+          />
+          <div class="gallery-overlay">
+            <span>✨ Moment 5</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── COUNTDOWN SECTION ───── -->
+  <section class="countdown-section">
+    <div class="container">
+      <h2 class="section-title light">Save The Date</h2>
+      <div class="divider light">💒</div>
+      <div class="countdown-boxes">
+        <div class="countdown-box">
+          <span class="count-num">12</span>
+          <span class="count-label">December</span>
+        </div>
+        <div class="countdown-box">
+          <span class="count-num">2025</span>
+          <span class="count-label">Year</span>
+        </div>
+        <div class="countdown-box">
+          <span class="count-num">7:00</span>
+          <span class="count-label">PM Onwards</span>
+        </div>
+        <div class="countdown-box">
+          <span class="count-num">MUM</span>
+          <span class="count-label">Mumbai</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── FOOTER ───── -->
+  <footer class="site-footer" id="footer">
+    <div class="container">
+      <p class="footer-names">Pratik &amp; Mansi</p>
+      <p class="footer-tagline">Forever begins on December 12, 2025</p>
+      <div class="footer-divider"></div>
+      <p class="footer-aws">
+        🌐 Hosted on <strong>Amazon EC2</strong> &nbsp;|&nbsp;
+        📸 Images served from <strong>Amazon S3</strong>
+      </p>
+      <p class="footer-copy">&copy; 2025 Pratik & Mansi. Made with ❤️ and AWS.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
