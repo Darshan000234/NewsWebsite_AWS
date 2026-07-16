@@ -23,12 +23,6 @@ This project helps beginners understand:
 
 ---
 
-# 🏗 Architecture
-
-![Architecture](images/architecture.png)
-
----
-
 # ⚙️ Workflow
 
 ```
@@ -124,7 +118,7 @@ NewsPortal/
 
 ---
 
-## Website Architecture
+## apache-flow
 
 ![Architecture](images/apache-flow.png)
 
